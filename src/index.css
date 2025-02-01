@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Cabin Sketch";
+    src: url("./assets//Cabin_Sketch/CabinSketch-Regular.ttf");
+}
+
+*::before,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --clr-brown: #C68E6B;
+    --clr-blue: #8AB6D6;
+    --clr-beige: #F5E6CA;
+    --clr-pink: #FAD2E1;
+    --clr-white: #F8F9FA;
+
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-800: 800;
+    --fw-200: 200;
+
+    --fs-small: 14px;
+    --fs-med: 20px;
+    --fs-large: 34px;
+    --fs-extra-large: 60px;
+
+    --ff-cabin: "Cabin Sketch"
+}
+
+body {
+    font-family: var(--ff-cabin);
+}

@@ -1,0 +1,87 @@
+[
+    {
+        "question": "Which of these colors is your most favourite one honey?",
+        "options": [
+            {
+                "option": "Blue",
+                "score": "a"
+            },
+            {
+                "option": "Mint",
+                "score": "b"
+            },
+            {
+                "option": "Grey",
+                "score": "c"
+            }
+        ]
+    },
+    {
+        "question": "Whats your opinion about swimming?",
+        "options": [
+            {
+                "option": "I love IT!!!",
+                "score": "a"
+            },
+            {
+                "option": "Nuh uh",
+                "score": "b"
+            },
+            {
+                "option": "Only if i am not alone :(",
+                "score": "c"
+            }
+        ]
+    },
+    {
+        "question": "Out of these, what food do you prefer?",
+        "options": [
+            {
+                "option": "Fishh",
+                "score": "a"
+            },
+            {
+                "option": "Super processed food blocks",
+                "score": "b"
+            },
+            {
+                "option": "Chickennnn",
+                "score": "c"
+            }
+        ]
+    },
+    {
+        "question": "Your opinion on walking?",
+        "options": [
+            {
+                "option": "Not a fan",
+                "score": "a"
+            },
+            {
+                "option": "i prefer teleporting",
+                "score": "b"
+            },
+            {
+                "option": "I love walkss",
+                "score": "c"
+            }
+        ]
+    },
+    {
+        "question": "Who's you favourite child? (You have to pick one hehehe)",
+        "options": [
+            {
+                "option": "Sugar",
+                "score": "a"
+            },
+            {
+                "option": "Dodo",
+                "score": "b"
+            },
+            {
+                "option": "nugget",
+                "score": "c"
+            }
+        ]
+    }
+]

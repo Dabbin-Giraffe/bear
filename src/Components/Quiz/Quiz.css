@@ -1,0 +1,52 @@
+.quiz-wrapper{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: var(--clr-beige);
+    background-image: url("../../assets/pawprint.png");
+    background-size: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 5rem;
+}
+
+.quiz-content{
+    font-size: var(--fs-extra-large);
+    background-color: var(--clr-white);
+    color: var(--clr-blue);
+    padding: 3rem 5rem;
+    border-radius: 1.5rem;
+    font-weight: var(--fw-600);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-direction: column;
+}
+
+.quiz-buttons{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-buttons button{
+    padding: 1.5rem 1.75rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: var(--clr-brown);
+    color: var(--clr-pink);
+    font-size: var(--fs-large);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.quiz-buttons button:hover{
+    transform: scale(1.1);
+    background-color: var(--clr-pink);
+    color: black;
+}

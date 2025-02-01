@@ -1,0 +1,65 @@
+.finish-wrapper {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--clr-pink);
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    justify-content: center;
+    background-image: url("../../assets/45-degree-fabric-light.png");
+}
+
+.finish-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.finish-text {
+    font-size: var(--fs-large);
+    display: flex;
+    flex-direction: column;
+}
+
+.finish-text p:first-child{
+    text-align: center;
+    font-size: var(--fs-extra-large);
+}
+
+.finish-text span{
+    background-color: var(--clr-blue);
+    color: var(--clr-white);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.finish-text img{
+    width: 20rem;
+    align-self: center;
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.bottom p:first-child{
+    text-align: center;
+    font-size: var(--fs-extra-large);
+    color: var(--clr-white);
+    background-color: var(--clr-brown);
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+}
+
+.bottom p:nth-child(2){
+    font-size: var(--fs-med);
+}
